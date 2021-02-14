@@ -1,0 +1,13 @@
+body {
+  color: rgb(182, 74, 74);
+  letter-spacing: 4px;
+}
+
+.block {
+  background: rgb(0, 255, 255);
+}
+
+.inline {
+  background: pink;
+  display: inline;
+}
