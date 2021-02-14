@@ -1,5 +1,4 @@
 import React, { Component, createContext } from "react";
-import { ThemeContext } from "./ThemeContext";
 
 export const AuthContext = createContext();
 
@@ -13,7 +12,7 @@ class AuthContextProvider extends Component {
   render() {
     return (
       <AuthContext.Provider
-        value={{ ...this.state, togleAuth: this.toggleAuth }}
+        value={{ ...this.state, toggleAuth: this.toggleAuth }}
       >
         {this.props.children}
       </AuthContext.Provider>
